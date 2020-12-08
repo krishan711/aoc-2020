@@ -57,14 +57,6 @@ def run_with_input_file(inputFilePath: str) -> str:
                 continue
             for ruleRemainingColor in ruleRemainingColors:
                 totalCounts[ruleRemainingColor] = None
-        # nextTargets = set()
-        # for target in targets:
-        #     for ruleColor, ruleBags in rules.items():
-        #         if target in ruleBags.keys():
-        #             if ruleColor not in output:
-        #                 output.add(ruleColor)
-        #                 nextTargets.add(ruleColor)
-        # targets = nextTargets
     return totalCounts['shiny gold']
 
 
